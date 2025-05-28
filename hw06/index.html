@@ -154,8 +154,7 @@
   <!-- ------------------------------------------------>
   <div class="row hw12">
     <div class="col-md-12 twenty">
-      心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。心得報告 105 字。
-    </div>
+      雖然這支影片到了後段越來越失控、節奏和畫面也有些混亂，但整體而言，我對這次的作業感到相當滿意。自己後來也去試了生成很多其他不同的影片，覺得十分有趣。
   </div>
 
   <!-- ------------------------------------------------>
@@ -170,22 +169,22 @@
         </tr>
         <tr>
           <td rowspan="4" id="myTotal"></td>
-          <td><input type="checkbox" class="flipswitch" id="myCheckbox1"></td>
+          <td><input type="checkbox" class="flipswitch" id="myCheckbox1"checked></td>
           <td id='m1'>4</td>
-          <td>Simple baseline - 描述</td>
+          <td>Simple baseline - Simple baseline - Comfy UI 環境設定完成</td>
         </tr>
         <tr>
-          <td><input type="checkbox" class="flipswitch" id="myCheckbox2"></td>
+          <td><input type="checkbox" class="flipswitch" id="myCheckbox2"checked></td>
           <td id='m2'>4</td>
-          <td>Medium baseline - 描述</td>
+          <td>Medium baseline - Medium baseline - 生成角色的圖片</td>
         </tr>
         <tr>
-          <td><input type="checkbox" class="flipswitch" id="myCheckbox3"></td>
+          <td><input type="checkbox" class="flipswitch" id="myCheckbox3"checked></td>
           <td id='m3'>2</td>
-          <td>Strong baseline - 描述</td>
+          <td>Strong baseline - Strong baseline - 生成完整角色動畫</td>
         </tr>
         <tr>
-          <td><input type="checkbox" class="flipswitch" id="myCheckbox4" checked></td>
+          <td><input type="checkbox" class="flipswitch" id="myCheckbox4" ></td>
           <td id='m4'>-10</td>
           <td>沒有寫100字心得</td>
         </tr>
@@ -195,16 +194,53 @@
   </div>
 
   <!-- ------------------------------------------------>
+  <div class="row hw12">
+    <div class="col-md-12 twenty">    
+      <figure>
+        <figcaption>Comfy UI 環境設定完成</figcaption>
+
+        <input type="button" name="back" onclick="location.href='https://civitai.com/models/7240/meinamix?modelVersionId=948574'" value="Checkpoint連結">
+        <input type="button" name="back" onclick="location.href='https://civitai.com/models/61749/bocchi-the-rock-anime-style-lora'" value="LoRA連結">
+
+        
+       Simple baseline - Comfy UI 環境設定完成
+        
+        <img src="Comfy UI.png" width="100%"/>
+      </figure>
+      </div>
+    </div>
+<!-- ------------------------------------------------>
+
+  <!-- ------------------------------------------------>
   <div class="row hw12 bottomrow">
     <div class="col-md-12 twenty">
-      <video id="video1" style="width:100%;max-width:100%;" controls="">
-        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
-      </video>
+      <figure>
+        <figcaption>Medium baseline - 生成角色的圖片</figcaption>
+        <img src="後藤ひとり.png" width="100%"/>
+        使用提示詞: "0"  : "(solo), detailed eyes, 1girl, pink hair, violet eyes, bangs, shoulder-length hair, school uniform jacket, pleated skirt, electric guitar, guitar strap, stage, spotlight, microphone stand, audience silhouette, night, anime style, front view,",
+  "10" : "detailed eyes, 1girl, pink hair, violet eyes, bangs, school uniform jacket, pleated skirt, electric guitar, guitar strap, stage, blue–purple spotlight, microphone stand, audience silhouette, night, close-up on eyes and fretboard,",
+  "20" : "(solo), detailed eyes, 1girl, pink hair, violet eyes, bangs, school uniform jacket, pleated skirt, electric guitar, guitar strap, stage, multicolor concert lights, microphone stand, audience silhouette, night, low angle from crowd,",
+  "30" : "(solo), detailed eyes, 1girl, pink hair, violet eyes, bangs, school uniform jacket, pleated skirt, electric guitar, guitar strap, stage, pink backlight, microphone stand, night, side-left view, strumming motion blur,",
+  "40" : "(solo), detailed eyes, 1girl, pink hair, violet eyes, bangs, school uniform jacket, pleated skirt, electric guitar, guitar strap, stage, violet rim light, amp cabinet, audience glowsticks, night, rear three-quarter, silhouette style,",
+  "50" : "(solo), detailed eyes, 1girl, pink hair, violet eyes, bangs, school uniform jacket, pleated skirt, electric guitar, guitar strap, stage, spotlight top-down, microphone stand, night, overhead shot, dramatic shadows,",
+  "60" : "(solo), detailed eyes, 1girl, pink hair, violet eyes, bangs, school uniform jacket, pleated skirt, electric guitar, guitar strap, stage, rotating rainbow lights, night, camera crane swirl, dynamic lighting,",
+  "70" : "(solo), detailed eyes, 1girl, pink hair, violet eyes, bangs, school uniform jacket, pleated skirt, electric guitar, guitar strap, stage, blue spotlight, amp stack foreground, night, behind-amp viewpoint,",
+  "80" : "(solo), detailed eyes, 1girl, pink hair, violet eyes, bangs, school uniform jacket, pleated skirt, electric guitar, guitar strap, stage, warm amber light, night, half-body portrait, emotional expression,",
+  "90" : "(solo), detailed eyes, 1girl, pink hair, violet eyes, bangs, school uniform jacket, pleated skirt, electric guitar, guitar strap, stage, intense magenta beam, microphone stand, night, high-contrast, lens flare,",
+  "100": "(solo), detailed eyes, 1girl, pink hair, violet eyes, bangs, school uniform jacket, pleated skirt, electric guitar, guitar strap, wide stage, multiple spotlights, audience waving glowsticks, night, full-wide shot,",
+  "110": "(solo), detailed eyes, 1girl, pink hair, violet eyes, bangs, school uniform jacket, pleated skirt, electric guitar held high, stage, confetti, spotlight bloom, audience cheering, night, heroic freeze frame,"
+      </figure>
     </div>
   </div>
 
-  <!-- ------------------------------------------------>
-
+  
+  <div class="row hw12 bottomrow">
+    <div class="col-md-12 twenty">
+      <video id="video1" style="width:100%;max-width:100%;" controls="">
+        <source src="https://github.com/Meowhello/ai2025s/blob/main/hw06/後藤ひとり.mp4" type="video/mp4">
+      </video>
+    </div>
+  </div>
   <!-- ------------------------------------------------>
 
 
